@@ -1,14 +1,15 @@
+:root {
+  --brand-color: #2196f3;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --white-color: #ffffff;
+  --black-color: 000000;
+}
+
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
   font-family: Roboto, sans-serif;
-}
-
-:root {
-  --brand-color: #2196f3;
-  --primary-text-color: #212121;
-  --primary-white-color: #ffffff;
-  --secondary-text-color: #757575;
 }
 
 ul {
@@ -19,8 +20,9 @@ a {
   text-decoration: none;
 }
 
+/* Header */
 .logo {
-  color: #000000;
+  color: var(--black-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -28,11 +30,6 @@ a {
   letter-spacing: 0.03em;
 }
 
-.logo-web {
-  color: var(--brand-color);
-}
-
-/* Site nav */
 .nav {
   font-weight: 500;
   font-size: 14px;
@@ -51,6 +48,10 @@ a {
 .link-nav:hover,
 .link-contact:hover,
 .link-nav:focus,
-.link-contact:focus {
+.link-contact:focus,
+.current,
+.logo-web {
   color: var(--brand-color);
 }
+
+/* Hero */
