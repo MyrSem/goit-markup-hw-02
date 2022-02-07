@@ -78,10 +78,6 @@ button {
 }
 
 .headbtn {
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -179,10 +175,6 @@ button {
 
 /* Portfolio */
 .overbtn {
-  width: 128px;
-  height: 38px;
-  left: 576px;
-  top: 174px;
   background: var(--secondary-background-color);
   color: var(--primary-text-color);
   border-radius: 4px;
